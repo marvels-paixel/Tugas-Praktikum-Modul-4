@@ -1,4 +1,4 @@
-#include <iostream> 
+#include <iostream>
 #include <thread> 
 #include <chrono> 
 using namespace std; 
@@ -63,7 +63,7 @@ int main() {
     } 
 
     string musuh = "Francisciscis"; 
-    int hpMusuh = 100; 
+    int hpMusuh = 70; 
     int pertahananMusuh = 10; 
     cout << "\nKamu memilih " << nama << "!" << endl; 
     this_thread::sleep_for(chrono::seconds(5)); 
